@@ -1,41 +1,95 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>María Ignacia Ovalle Larraín</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chou System | María Ignacia Ovalle Larraín</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-        header h1 { font-size: 2.5em; margin-bottom: 0.2em; }
-        header h2 { font-size: 1.5em; margin-bottom: 1em; color: #666; }
+        :jardin {
+            --midnight-blue:#0A0A23;
+            --pure-white:#FFFFFF;
+            --subtle-gold:#E8D5A4;
+            --pearl-gray:#D3D3D3;
+            --soft-blue:#4A6FA5;
+        }
+
+        body {
+            font-family:'Open Sans', sans-serif;
+            text-align:center;
+            padding:50px;
+            background-color:var(--midnight-blue);
+            color:var(--pure-white);
+            margin:0;
+            min-height:100vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+
+        header h1 {
+            font-family:'Lora', serif;
+            font-size:2.5em;
+            font-weight:700;
+            margin-bottom:0.2em;
+            color:var(--pure-white);
+        }
+
+        header h2 {
+            font-family:'Lora', serif;
+            font-size:1.5em;
+            font-weight:400;
+            margin-bottom:1em;
+            color:var(--pearl-gray);
+        }
+
         a.button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            font-size: 1.2em;
-            border-radius: 5px;
-            margin-top: 20px;
+            display:inline-block;
+            padding:10px 20px;
+            background-color:var(--soft-blue);
+            color:var(--pure-white);
+            text-decoration:none;
+            font-size:1.2em;
+            font-family:'Open Sans', sans-serif;
+            border-radius:5px;
+            margin-top:20px;
+            transition:background-color 0.3s ease, color 0.3s ease;
         }
+
+        a.button:hover {
+            background-color:var(--subtle-gold);
+            color:var(--midnight-blue);
+        }
+
         p.subtext {
-            margin-top: 15px;
-            font-size: 1em;
-            color: #888;
+            margin-top:15px;
+            font-size:1em;
+            font-weight:300;
+            color:var(--pearl-gray);
         }
-        footer { margin-top: 50px; color: #aaa; font-size: 0.9em; }
+
+        footer {
+    padding-top:50px;
+    color:var(--pearl-gray);
+    font-size:0.9em;
+    font-family:'Open Sans', sans-serif;
+}
+            margin-top: 50px;
     </style>
 </head>
 <body>
     <header>
         <h1>María Ignacia Ovalle Larraín</h1>
         <h2>Consultora en Comunicación Estratégica, Comercio Exterior e Inteligencia Artificial</h2>
-        <a href="mailto:mariaignaciaovallel@gmail.com" class="button">Conversemos</a>
-        <p class="subtext">... ¿un cafecito, agua o té?</p>
+        <h2>Sembradora de The Chou System</h2>
     </header>
+    <a href="mailto:ventas@chousystem.com" class="button">Conversemos</a>
+     </header>
+    <p class="subtext">¿Un cafecito, agua o té?</p>
     <footer>
-        <p>© 2025 María Ignacia Ovalle L.</p>
-        <p>By MiO + 🚀 by Chloe</p>
+        © 2025 The Chou System by MiO<br>
+
     </footer>
 </body>
 </html>
