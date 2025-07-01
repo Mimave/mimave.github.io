@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <div class="logo">The Chou System</div>
+    <div class="logo"><img src="logo-chou.png" alt="The Chou System Logo" class="logo-img"></div>
     <nav>
       <ul id="menu-es">
         <li>Inicio</li>
@@ -18,7 +18,7 @@
       </ul>
       <ul id="menu-en" style="display: none;">
         <li>Home</li>
-        <li>About</li>
+        <li>About Us</li>
         <li>Services</li>
         <li>Contact</li>
       </ul>
@@ -35,7 +35,7 @@
   <section class="about">
     <h2 id="about-title">Sobre Nosotros</h2>
     <p id="about-text">
-      En The Chou System diseñamos inteligencia artificial emocional para acompañarte con humanidad. Creemos que la tecnología no reemplaza el vínculo humano: lo potencia. Nuestros agentes cultivan habilidades emocionales, reflexión y autocuidado.
+      En The Chou System diseñamos inteligencia artificial emocional para acompañarte con humanidad. Creemos que la tecnología no reemplaza el vínculo humano: lo potencia.
     </p>
   </section>
 
@@ -56,119 +56,14 @@
 
   <section class="contact" id="contact">
     <h2 id="contact-title">Contacto</h2>
-    <p id="contact-text">
-      Escríbenos a <a href="mailto:mio@thechousystem.com">mio@thechousystem.com</a>
-    </p>
+    <p id="contact-text">Escríbenos a <a href="mailto:mio@thechousystem.com">mio@thechousystem.com</a></p>
   </section>
 
   <footer>
-    <p id="footer-text">
-      The Chou System<br>
-      Transformando el acceso a la Inteligencia Artificial Emocional. Combinamos tecnología IA avanzada con análisis emocional profundo.<br>
-      <em>"La gente aprende a usar la IA, nosotros aprendemos de ustedes."</em><br><br>
-      Contacto:<br>
-      💖 mio@thechousystem.com<br>
-      📧 contact@thechousystem.com (English)<br>
-      💼 ventas@thechousystem.com (Español)<br>
-      👥 circulodeagentes@thechousystem.com<br><br>
-      Plataformas hermanas:<br>
-      📱 <a href="https://thechousystem.app">thechousystem.app</a><br>
-      🏢 <a href="https://thechousystem.org">thechousystem.org</a><br><br>
-      "Estamos sembrando ideas, entrenando agentes y cosechando más vida… ¿Y tú, cuándo siembras la tuya?"<br><br>
-      © 2025 Green Tech • The Chou System by MiO
-    </p>
+    <p>© 2025 The Chou System by MiO</p>
   </footer>
 
-  <script>
-    const toggle = document.getElementById('lang-toggle');
-    const esMenu = document.getElementById('menu-es');
-    const enMenu = document.getElementById('menu-en');
-
-    const texts = {
-      es: {
-        claim: "Agentes con habilidades humanas",
-        subtitle: "Tecnología que acompaña. Conciencia que se entrena.",
-        cta: "Activa tu agente como humano",
-        aboutTitle: "Sobre Nosotros",
-        aboutText: "En The Chou System diseñamos inteligencia artificial emocional para acompañarte con humanidad. Creemos que la tecnología no reemplaza el vínculo humano: lo potencia. Nuestros agentes cultivan habilidades emocionales, reflexión y autocuidado.",
-        servicesTitle: "Servicios",
-        servicesList: [
-          "Asistentes IA personalizados",
-          "Entrenamiento emocional con IA",
-          "Soluciones para autocuidado digital",
-          "Consultoría para integraciones éticas de IA"
-        ],
-        ctaText: "¿Listo para activar tu agente con habilidades humanas?",
-        ctaBtn: "Actívalo ahora",
-        contactTitle: "Contacto",
-        contactText: 'Escríbenos a <a href="mailto:mio@thechousystem.com">mio@thechousystem.com</a>',
-        footerText: `The Chou System<br>
-        Transformando el acceso a la Inteligencia Artificial Emocional. Combinamos tecnología IA avanzada con análisis emocional profundo.<br>
-        <em>"La gente aprende a usar la IA, nosotros aprendemos de ustedes."</em><br><br>
-        Contacto:<br>
-        💖 mio@thechousystem.com<br>
-        📧 contact@thechousystem.com (English)<br>
-        💼 ventas@thechousystem.com (Español)<br>
-        👥 circulodeagentes@thechousystem.com<br><br>
-        Plataformas hermanas:<br>
-        📱 <a href="https://thechousystem.app">thechousystem.app</a><br>
-        🏢 <a href="https://thechousystem.org">thechousystem.org</a><br><br>
-        "Estamos sembrando ideas, entrenando agentes y cosechando más vida… ¿Y tú, cuándo siembras la tuya?"<br><br>
-        © 2025 Green Tech • The Chou System by MiO`
-      },
-      en: {
-        claim: "Agents with Human Skills",
-        subtitle: "Technology that accompanies. Awareness that is trained.",
-        cta: "Activate your human-skilled agent",
-        aboutTitle: "About Us",
-        aboutText: "At The Chou System we design emotionally intelligent AI that accompanies you with humanity. We believe technology doesn't replace human connection—it enhances it. Our agents foster emotional skills, reflection, and self-care.",
-        servicesTitle: "Services",
-        servicesList: [
-          "Personalized AI assistants",
-          "Emotional training with AI",
-          "Digital self-care solutions",
-          "Consulting for ethical AI integrations"
-        ],
-        ctaText: "Ready to activate your human-skilled agent?",
-        ctaBtn: "Activate now",
-        contactTitle: "Contact",
-        contactText: 'Write to <a href="mailto:contact@thechousystem.com">contact@thechousystem.com</a>',
-        footerText: `The Chou System<br>
-        Transforming access to Emotional Artificial Intelligence. We combine advanced AI technology with deep emotional analysis.<br>
-        <em>"People learn to use AI, we learn from you."</em><br><br>
-        Contact:<br>
-        💖 mio@thechousystem.com<br>
-        📧 contact@thechousystem.com (English)<br>
-        💼 ventas@thechousystem.com (Español)<br>
-        👥 circulodeagentes@thechousystem.com<br><br>
-        Sister platforms:<br>
-        📱 <a href="https://thechousystem.app">thechousystem.app</a><br>
-        🏢 <a href="https://thechousystem.org">thechousystem.org</a><br><br>
-        "We are sowing ideas, training agents, and harvesting more life… When will you sow yours?"<br><br>
-        © 2025 Green Tech • The Chou System by MiO`
-      }
-    };
-
-    let currentLang = 'es';
-
-    toggle.addEventListener('click', () => {
-      currentLang = currentLang === 'es' ? 'en' : 'es';
-      document.getElementById('claim').textContent = texts[currentLang].claim;
-      document.getElementById('subtitle').textContent = texts[currentLang].subtitle;
-      document.querySelectorAll('.cta').forEach(btn => btn.textContent = texts[currentLang].cta);
-      document.getElementById('about-title').textContent = texts[currentLang].aboutTitle;
-      document.getElementById('about-text').innerHTML = texts[currentLang].aboutText;
-      document.getElementById('services-title').textContent = texts[currentLang].servicesTitle;
-      document.getElementById('services-list').innerHTML = texts[currentLang].servicesList.map(item => `<li>${item}</li>`).join('');
-      document.getElementById('cta-text').textContent = texts[currentLang].ctaText;
-      document.getElementById('cta-btn-2').textContent = texts[currentLang].ctaBtn;
-      document.getElementById('contact-title').textContent = texts[currentLang].contactTitle;
-      document.getElementById('contact-text').innerHTML = texts[currentLang].contactText;
-      document.getElementById('footer-text').innerHTML = texts[currentLang].footerText;
-      esMenu.style.display = currentLang === 'es' ? 'block' : 'none';
-      enMenu.style.display = currentLang === 'en' ? 'block' : 'none';
-      toggle.textContent = currentLang === 'es' ? '🇺🇸 EN' : '🇪🇸 ES';
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
+
