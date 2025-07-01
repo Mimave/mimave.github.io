@@ -1,71 +1,55 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #fff9f5;
+  font-family: Arial, sans-serif;
   color: #333;
+  background: url('disenosintituloVI.png') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
-  background-color: #fbe6df;
-  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
-}
-
-.logo {
-  font-weight: bold;
-  font-size: 1.2rem;
+  z-index: 999;
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  gap: 1rem;
-  margin: 0;
+  gap: 15px;
+  list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-nav a, nav li {
-  text-decoration: none;
-  color: #333;
+nav button {
+  margin-left: 10px;
 }
 
-.hero {
-  padding: 4rem 2rem;
-  text-align: center;
-  background: url('tu-fondo-limpio.png') no-repeat center/cover;
-  color: #222;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+section {
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
 }
 
 .cta {
-  background-color: #d0816c;
-  color: white;
-  padding: 0.75rem 1.5rem;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d18166;
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
 }
 
-section {
-  padding: 2rem;
-}
-
 footer {
-  background-color: #fbe6df;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
   text-align: center;
-  padding: 2rem 1rem;
-  font-size: 0.9rem;
-  line-height: 1.4;
+  font-size: 0.9em;
 }
