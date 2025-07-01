@@ -1,108 +1,71 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  background-color: #fff9f5;
+  color: #333;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  background-color: #fbe6df;
   padding: 1rem 2rem;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
 
-header .logo {
-  max-height: 60px;
-  width: auto;
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 nav ul {
-  display: flex;
   list-style: none;
+  display: flex;
+  gap: 1rem;
   margin: 0;
   padding: 0;
 }
 
-nav ul li {
-  margin-left: 1.5rem;
-  cursor: pointer;
-  font-weight: 500;
-}
-
-nav button {
-  margin-left: 1rem;
-  padding: 0.3rem 0.8rem;
-  cursor: pointer;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f8f8f8;
+nav a, nav li {
+  text-decoration: none;
+  color: #333;
 }
 
 .hero {
+  padding: 4rem 2rem;
   text-align: center;
-  padding: 4rem 1rem;
-  background-color: #f5f5f5;
+  background: url('tu-fondo-limpio.png') no-repeat center/cover;
+  color: #222;
 }
 
 .hero h1 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .cta {
-  display: inline-block;
-  padding: 0.8rem 1.5rem;
-  background-color: #2f855a;
+  background-color: #d0816c;
   color: white;
+  padding: 0.75rem 1.5rem;
   text-decoration: none;
   border-radius: 5px;
 }
 
 section {
-  padding: 3rem 1.5rem;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-section h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-section p,
-section ul {
-  font-size: 1rem;
-  line-height: 1.6;
+  padding: 2rem;
 }
 
 footer {
+  background-color: #fbe6df;
   text-align: center;
-  padding: 1rem;
-  background-color: #222;
-  color: #aaa;
+  padding: 2rem 1rem;
   font-size: 0.9rem;
+  line-height: 1.4;
 }
-
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav ul li {
-    margin: 0.5rem 0;
-  }
-}
-
