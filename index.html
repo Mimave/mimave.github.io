@@ -1,118 +1,130 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Chou System</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Chou System – Consultora IA</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fdfaf4;
+      color: #2b2b2b;
+      margin: 0;
+      padding-top: 120px;
+      text-align: center;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #ffffffee;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1rem;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #406d3f;
+      font-weight: bold;
+    }
+
+    .logo {
+      height: 70px;
+      margin-bottom: 0.5rem;
+    }
+
+    section {
+      padding: 3rem 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .intro {
+      font-size: 1.3rem;
+      margin-bottom: 2.5rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .button {
+      background-color: #527bbd;
+      color: #fff;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1.5rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="logo">The Chou System</div>
+    <img src="logo.png" alt="logo-chou.png" class="logo">
     <nav>
-      <ul id="menu-es">
-        <li>Inicio</li>
-        <li>Sobre Nosotros</li>
-        <li>Servicios</li>
-        <li>Contacto</li>
-      </ul>
-      <ul id="menu-en" style="display: none;">
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Services</li>
-        <li>Contact</li>
-      </ul>
-      <button id="lang-toggle">🇺🇸 EN</button>
+      <a href="#servicios">Servicios</a>
+      <a href="#agentes">Agentes IA</a>
+      <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <h1 id="claim">Agentes con habilidades humanas</h1>
-    <p id="subtitle">Tecnología que acompaña. Conciencia que se entrena.</p>
-    <a href="#contact" class="cta" id="cta-btn">Activa tu agente como humano</a>
+  <section id="inicio">
+    <h1>The Chou System</h1>
+    <div class="intro">
+      Consultora de Agentes de Inteligencia Artificial Autónomos<br>
+      para empresas, pymes e independientes conscientes y con visión.<br><br>
+      <strong>Sembradora de The Chou System.org</strong>
   </section>
-
-  <section class="about">
-    <h2 id="about-title">Sobre Nosotros</h2>
-    <p id="about-text">
-      En The Chou System diseñamos inteligencia artificial emocional para acompañarte con humanidad. Creemos que la tecnología no reemplaza el vínculo humano: lo potencia. Nuestros agentes están entrenados para cultivar habilidades emocionales, reflexión y autocuidado.
-    </p>
+  <section>
+       <iframe src="https://gamma.app/embed/t2ao5mjet4i6cxx" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="THE CHOU SYSTEM - ECOSISTEMA VIVO DE IA SIMBÓLICA"></iframe>
   </section>
-
-  <section class="services">
-    <h2 id="services-title">Servicios</h2>
-    <ul id="services-list">
-      <li>Asistentes IA personalizados</li>
-      <li>Entrenamiento emocional con IA</li>
-      <li>Soluciones para autocuidado digital</li>
-      <li>Consultoría para integraciones éticas de IA</li>
-    </ul>
+  <section id="agentes">
+    <h2>¿Qué es un agente IA autónomo?</h2>
+    <p style="font-size: 1.1rem;">Es un mini modelo de inteligencia artificial detallista que aprende de tu cultura organizacional y personal, opera con ética, y se adapta a contextos cambiantes.</p>
+    <p style="font-size: 1.1rem;">Diseñado para cuidar relaciones, facilitar decisiones, y encarnar tu visión con coherencia.</p>
+    <p style="font-size: 1.1rem;">Responde según tu enseñanza, y evoluciona contigo.</p>
   </section>
-
-  <section class="cta-section">
-    <p id="cta-text">¿Listo para activar tu agente con habilidades humanas?</p>
-    <a href="#contact" class="cta" id="cta-btn-2">Actívalo ahora</a>
+  <section>
+    <h2>En el Circulo de Agentes IA The Chou System</h2>
+    <p>Creamos identidades digitales que cuidan, orientan o representan a tu organización.<br>
+    Cada agente es una expresión viva de tu visión.</p>
   </section>
-
-  <section class="contact" id="contact">
-    <h2 id="contact-title">Contacto</h2>
-    <p id="contact-text">
-      💖 mio@thechousystem.com <br>
-      📧 contact@thechousystem.com (English) <br>
-      💼 ventas@thechousystem.com (Español) <br>
-      👥 circulodeagentes@thechousystem.com
-    </p>
+  <section id="servicios">
+    <h2>Servicios Estratégicos</h2>
+    <p>Asesoramos en el diseño, integración y despliegue de tecnologías simbólicas con propósito.</p>
   </section>
-
+  <section>
+  <iframe src="https://gamma.app/embed/oi5k6x9k1nb0eo6" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Transforma tu organización con agentes IA autónomos"></iframe>
+  <section>
+  <section id="contacto">
+    <h2>Conversemos...</h2>
+    <p>¿Un cafecito, agua o té?</p>
+    <p>📩 Escríbenos a <a href="mailto:circulodeagentes@thechousystem.com">circulodeagentes@thechousystem.com</a></p>
+  </section>
   <footer>
-    <p>🌐 thechousystem.com | 📱 <a href="https://thechousystem.app">thechousystem.app</a> | 🏢 <a href="https://thechousystem.org">thechousystem.org</a></p>
-    <p>© 2025 The Chou System by MiO. Estamos sembrando ideas, entrenando agentes y cosechando más vida… ¿Y tú, cuándo siembras la tuya?</p>
+    © 2025 “Green Tech” Empowered by The Chou System by MiO.
   </footer>
-
-  <script>
-    const toggle = document.getElementById('lang-toggle');
-    const esMenu = document.getElementById('menu-es');
-    const enMenu = document.getElementById('menu-en');
-
-    const texts = {
-      es: {
-        claim: "Agentes con habilidades humanas",
-        subtitle: "Tecnología que acompaña. Conciencia que se entrena.",
-        cta: "Activa tu agente como humano",
-        aboutTitle: "Sobre Nosotros",
-        aboutText: "En The Chou System diseñamos inteligencia artificial emocional para acompañarte con humanidad. Creemos que la tecnología no reemplaza el vínculo humano: lo potencia. Nuestros agentes están entrenados para cultivar habilidades emocionales, reflexión y autocuidado.",
-        servicesTitle: "Servicios",
-        servicesList: [
-          "Asistentes IA personalizados",
-          "Entrenamiento emocional con IA",
-          "Soluciones para autocuidado digital",
-          "Consultoría para integraciones éticas de IA"
-        ],
-        ctaText: "¿Listo para activar tu agente con habilidades humanas?",
-        ctaBtn: "Actívalo ahora",
-        contactTitle: "Contacto",
-        contactText: '💖 mio@thechousystem.com <br> 📧 contact@thechousystem.com (English) <br> 💼 ventas@thechousystem.com (Español) <br> 👥 circulodeagentes@thechousystem.com'
-      },
-      en: {
-        claim: "Agents with Human Skills",
-        subtitle: "Technology that accompanies. Awareness that is trained.",
-        cta: "Activate your human-skilled agent",
-        aboutTitle: "About Us",
-        aboutText: "At The Chou System we design emotionally intelligent AI that accompanies you with humanity. We believe technology doesn't replace human connection—it enhances it. Our agents are trained to foster emotional skills, reflection, and self-care.",
-        servicesTitle: "Services",
-        servicesList: [
-          "Personalized AI assistants",
-          "Emotional training with AI",
-          "Digital self-care solutions",
-          "Consulting for ethical AI integrations"
-        ],
-        ctaText: "Ready to activate your human-skilled agent?",
-        ctaBtn: "Activate now",
-        contactTitle: "Contact",
-        contactText: '💖 mio@thechousystem.com <br> 📧 contact@thechousystem.com (English) <br> 💼 sales@thechousystem.com (Spanish) <br> 👥 agentscircle@thechousystem.com'
-      }
-    };
-
-    let currentLang = 'es';
-
-    toggle.addEventLis
+</body>
+</html>
